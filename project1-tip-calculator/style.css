@@ -5,3 +5,20 @@ body {
 * {
     box-sizing: border-box;
 }
+
+#first{
+    text-align: center;
+}
+
+.mode>input{
+    width: 100%;
+}
+#camon{
+    text-align: center;
+    background-color: rgb(49, 159, 49);
+    color: white;
+}
+
+#ox>b{
+    font-size: xx-large;
+}
