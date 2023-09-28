@@ -1,12 +1,15 @@
 section{
     font-family: "Helvetica", sans-serif;
     width: 60%;
-    height: 7%; 
+    height: 9%; 
     background-color: white;
+    pad: 40rem;
 }
+
 header,div{
     background-color: white;
 }
+
 header{
     margin: 10px;
 }
@@ -28,7 +31,7 @@ header{
 
 .mode>input{
     width: 99%;
-    margin: 5px 0;
+    margin: 5px 5px ;
     background-color: white;
     margin-left: 12px;
 }
@@ -38,11 +41,12 @@ header{
     background-color: white;
 }
 
-#camon{
+.mode>h3{
     text-align: center;
     background-color: rgb(49, 159, 49);
     color: white;
-    width: 389px;
+    width: 423px;
+    margin: auto;
 
 }
 
@@ -57,4 +61,5 @@ header{
 
 label,p,#ox{
     background-color: white;
+    margin: 0 4px;
 }
