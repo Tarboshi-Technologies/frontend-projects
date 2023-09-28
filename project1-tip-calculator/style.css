@@ -1,37 +1,42 @@
-#whole {
-    font-family: "Helvetica", sans-serif;
-    width: 400px;
-    height: 120px;
-    border: 5px solid white;
-    background: white;
-    margin: auto;
-   
+body {
+  background-color: rgb(222, 217, 217);
+}
+section {
+  background-color: white;
+  width: 600px;
+  margin-top: 10rem;
+  margin-left: 25rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-* {
-    box-sizing: border-box;
-    max-width: 900px;
-    margin: auto;
-    background: white;
-    padding: 7px;
+label {
+  padding-bottom: 3px;
 }
 
-#first{
-    text-align: center;
-    font-size: 50px;
+input {
+  width: 90%;
+  padding: 6px;
+  margin: 5px 1px;
 }
 
-
-.mode>input{
-    width: 100%;
-    margin: 5px 0;
-}
-#camon{
-    text-align: center;
-    background-color: rgb(49, 159, 49);
-    color: white;
+h5 {
+  font-size: 23px;
+  text-align: center;
+  background-color: rgb(105, 178, 105);
+  color: white;
+  width: 92%;
+  padding: 5px;
 }
 
-#ox>b{
-    font-size: xx-large;
+p > b {
+  font-size: 25px;
 }
