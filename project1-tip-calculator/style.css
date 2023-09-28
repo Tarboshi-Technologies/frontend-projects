@@ -1,37 +1,60 @@
-#whole {
+section{
     font-family: "Helvetica", sans-serif;
-    width: 400px;
-    height: 120px;
-    border: 5px solid white;
-    background: white;
-    margin: auto;
-   
+    width: 60%;
+    height: 7%; 
+    background-color: white;
+}
+header,div{
+    background-color: white;
+}
+header{
+    margin: 10px;
 }
 
 * {
     box-sizing: border-box;
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
-    background: white;
-    padding: 7px;
+    background: gainsboro;
+    padding: 8px;
 }
 
 #first{
     text-align: center;
     font-size: 50px;
+    background-color: white;
 }
 
 
 .mode>input{
-    width: 100%;
+    width: 99%;
     margin: 5px 0;
+    background-color: white;
+    margin-left: 12px;
 }
+
+.mode{
+    width: 100%;
+    background-color: white;
+}
+
 #camon{
     text-align: center;
     background-color: rgb(49, 159, 49);
     color: white;
+    width: 389px;
+
 }
 
 #ox>b{
     font-size: xx-large;
+    background-color: white;
+} 
+
+#contain{
+    background-color: white;
+}
+
+label,p,#ox{
+    background-color: white;
 }
