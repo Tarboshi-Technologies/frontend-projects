@@ -16,18 +16,15 @@
         <div>
             <p>Enter the bill amount and tip percentage to calculate the total.</p>
         </div>
-        <div>
+        <form action="/action_page.php">
             <label for="text"> Bill amount: <br></label>
-            <input type="text" name="amount" id="amount" value="2000">
-        </div>
-        <div>
+            <input type="text" name="amount" id="amount" placeholder="2000" required><br>
             <label for="text"> Tip percentage: <br></label>
-            <input type="text" id="amount" name="amount" value="2.4">
-            <div>
-                <header>
-                    <h5>CALCULATE</h5>
-                    <p>Total: <b>2048.00</b></p>
-                </header>
+            <input type="text" placeholder="2.4" id="prize" name="amount">
+            <input type="button" id="last" value="CALCULATE">
+        </form>
+        <p>Total: <b>2048.00</b></p>
+
     </section>
 </body>
 
