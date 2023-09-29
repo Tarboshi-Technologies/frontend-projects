@@ -1,6 +1,54 @@
 body {
-    margin: 0;
-    padding: 20px;
-    font-family: "Montserrat", sans-serif;
-    background-color: #f7f7f7;
-  }
+  margin: 0;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+section {
+  width: 30%;
+  background: white;
+  text-align: center;
+  height: 5%;
+  border: none;
+  border-radius: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 0.1rem;
+  box-shadow: 2px 1px 3px 2px rgb(191, 192, 191);
+}
+h1 {
+  font-size: 30px;
+  padding: 0rem;
+}
+label {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#date{
+  width: 60%;
+  margin: 0.5rem;
+  padding: 2px;
+}
+#calculate{
+  background: rgb(4, 120, 252);
+  color: white;
+  border: none;
+  padding: 4px;
+  font-size: 12px;
+}
+p{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
