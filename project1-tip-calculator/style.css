@@ -3,16 +3,14 @@ body {
 }
 section {
   background-color: white;
-  width: 600px;
+  width: 50%;
   height: 340px;
   border: none;
   border-radius: 3%;
-  margin-top: 10rem;
-  margin-left: 25rem;
-  padding-left: 2rem;
-  padding-top: 0.1rem;
-  padding-bottom: 1.5rem;
-  box-shadow: 1px 1px 1px 1px rgb(192, 191, 191);
+  margin: 0 auto;
+  margin-top: 7rem;
+  padding: 4rem;
+  box-shadow: 2px 1px 2px 4px rgb(192, 191, 191)
 }
 
 h1 {
@@ -33,7 +31,7 @@ input {
   margin: 5px 1px;
 }
 
-#last {
+#calculate {
   width: 92.5%;
   font-size: 23px;
   text-align: center;
