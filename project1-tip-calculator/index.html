@@ -9,7 +9,25 @@
 </head>
 
 <body>
+    <section>
+        <header>
+            <h1>Tip Calculator</h1>
+        </header>
+        <div>
+            <p>Enter the bill amount and tip percentage to calculate the total.</p>
+        </div>
+        <form>
+            <legend>
+                <label for="amount"> Bill amount: <br></label>
+                <input type="text" name="amount" value="2000" id="amount" placeholder="enter amount" required><br>
+                <label for="percentage"> Tip percentage: <br></label>
+                <input type="text" value="2.5" placeholder="enter percentage" id="percentage" name="percentage">
+                <input type="submit" id="calculate" value="CALCULATE">
+            </legend>
+        </form>
+        <p>Total: <b>2048.00</b></p>
 
+    </section>
 </body>
 
 </html>
