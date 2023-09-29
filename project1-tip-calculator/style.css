@@ -12,7 +12,7 @@ section {
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 2rem;
-  box-shadow: 2px 1px 2px grey;
+  box-shadow: 1px  1px 2px 2px rgb(192, 191, 191);
 }
 
 h1 {
@@ -46,4 +46,3 @@ h5 {
 p > b {
   font-size: 25px;
 }
-
