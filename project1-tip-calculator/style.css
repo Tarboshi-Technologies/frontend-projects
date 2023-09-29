@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 section{
     font-family: "Helvetica", sans-serif;
     width: 60%;
@@ -26,9 +27,36 @@ header{
     text-align: center;
     font-size: 50px;
     background-color: white;
+=======
+body {
+  background-color: rgb(237, 240, 240);
+}
+section {
+  background-color: white;
+  width: 50%;
+  height: 340px;
+  border: none;
+  border-radius: 1%;
+  margin: 0 auto;
+  margin-top: 7rem;
+  padding: 4rem;
+  box-shadow: 2px 1px 2px 4px rgb(192, 191, 191)
 }
 
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+>>>>>>> 184d96fd2949fc28d0ae9721ae1fb441519dbe67
+}
 
+label {
+  padding-bottom: 3px;
+}
+
+<<<<<<< HEAD
 .mode>input{
     width: 99%;
     margin: 5px 5px ;
@@ -63,3 +91,25 @@ label,p,#ox{
     background-color: white;
     margin: 0 4px;
 }
+=======
+input {
+  width: 90%;
+  padding: 6px;
+  margin: 5px 1px;
+}
+
+#calculate {
+  width: 92.5%;
+  font-size: 23px;
+  text-align: center;
+  background: rgb(105, 178, 105);
+  color: white;
+  padding: 5px;
+  margin-bottom: 2px;
+  border: none;
+}
+
+p > b {
+  font-size: 25px;
+}
+>>>>>>> 184d96fd2949fc28d0ae9721ae1fb441519dbe67
