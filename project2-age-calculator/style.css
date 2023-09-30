@@ -10,7 +10,6 @@ section {
   background: white;
   text-align: center;
   height: 5%;
-  border: none;
   border-radius: 1rem;
   margin: 0 auto;
   margin-top: 2rem;
@@ -19,26 +18,24 @@ section {
 }
 h1 {
   font-size: 30px;
-  padding: 0rem;
+  /* padding: 0rem; */
 }
-label {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 #date{
   width: 60%;
   margin: 0.5rem;
   padding: 2px;
 }
 #calculate{
+  width: 20%;
   background: rgb(4, 120, 252);
   color: white;
   border: none;
-  padding: 4px;
+  border-radius: 0.2rem;
+  padding: 7px;
   font-size: 12px;
 }
-p{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+
 
 
 
