@@ -31,6 +31,7 @@ header{
 body {
   background-color: rgb(237, 240, 240);
 }
+
 section {
   background-color: white;
   width: 50%;
@@ -38,9 +39,9 @@ section {
   border: none;
   border-radius: 1%;
   margin: 0 auto;
-  margin-top: 7rem;
+  margin-top: 0.5rem;
   padding: 4rem;
-  box-shadow: 2px 1px 2px 4px rgb(192, 191, 191)
+  box-shadow: 2px 1px 2px 4px rgb(192, 191, 191);
 }
 
 h1 {
