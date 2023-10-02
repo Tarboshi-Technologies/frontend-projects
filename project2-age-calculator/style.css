@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: #f8f8f8;
 }
 
@@ -21,12 +21,12 @@ h1 {
   /* padding: 0rem; */
 }
 
-#date{
+#date {
   width: 60%;
   margin: 0.5rem;
   padding: 2px;
 }
-#calculate{
+#calculate {
   width: 20%;
   background: rgb(4, 120, 252);
   color: white;
@@ -35,17 +35,3 @@ h1 {
   padding: 7px;
   font-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
