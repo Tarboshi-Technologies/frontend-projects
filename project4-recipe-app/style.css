@@ -2,3 +2,66 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
+section {
+  box-sizing: border-box;
+  width: 80%;
+  height: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  background: rgb(5, 5, 96);
+  color: rgb(254, 252, 252);
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+#block {
+  display: block;
+  flex-direction: column;
+  background: white;
+  box-shadow: 2px 2px 2px 2px solid gray;
+}
+#block > div {
+  background-color: white;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 400px;
+  box-shadow: lightgray;
+}
+
+img {
+  width: 130px;
+  height: 135px;
+  float: left;
+  margin: 3px 15px 0px 1px;
+  padding: 0;
+}
+figcaption {
+  font-size: large;
+  padding: 0.5rem 1rem;
+  text-align: left;
+  justify-content: center;
+}
+p {
+  font-size: small;
+  color: rgb(151, 147, 147);
+  padding: 1rem;
+  margin: 3rem;
+  text-align: center;
+}
+a:link,
+a:visited {
+  background: rgb(5, 5, 120);
+  color: white;
+  padding: 6px 8px;
+  text-align: left;
+  text-decoration: none;
+  display: inline;
+  width: 13%;
+  float: right;
+}

@@ -10,7 +10,7 @@ body {
 }
 section {
   background: white;
-  width: 30%;
+  width: 25%;
   height: 60%;
   margin: 0 auto;
   margin-top: 2rem;
@@ -59,6 +59,7 @@ img {
   border-radius: 50%;
   float: left;
   padding: 5px;
+  padding-left: none;
 }
 figcaption {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
