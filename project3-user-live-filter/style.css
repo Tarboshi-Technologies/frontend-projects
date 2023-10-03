@@ -57,11 +57,18 @@ hr {
 img {
   width: 7%;
   border-radius: 50%;
+  float: left;
 }
 figcaption {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
 }
-p {
+span {
   font-size: small;
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    display: none;
+  }
 }
