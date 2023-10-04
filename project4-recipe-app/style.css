@@ -4,10 +4,13 @@ body {
 
 section {
   box-sizing: border-box;
+  display: flex;
   width: 80%;
-  height: 300px;
-  padding: 0;
-  margin: 0;
+  height: 200px;
+  /* padding: 0 2rem; */
+  margin: 0 auto;
+  margin-top: 2rem;
+  flex-direction: column;
 }
 
 h2 {
@@ -19,7 +22,37 @@ h2 {
   margin: 0 auto;
 }
 
-#block {
+.block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+div {
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 1px 1px rgb(234, 231, 231);
+  margin: 0.5rem;
+}
+
+p {
+  padding-top: 2rem;
+  font-weight: 200;
+}
+nav {
+  padding-top: 4rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+}
+
+figcaption {
+  padding-top: 3rem;
+}
+
+/*
+.class {
   display: block;
   flex-direction: column;
   background: white;
@@ -32,7 +65,7 @@ h2 {
   text-align: center;
   line-height: 400px;
   box-shadow: lightgray;
-}
+} */
 
 img {
   width: 130px;
@@ -40,8 +73,10 @@ img {
   float: left;
   margin: 3px 15px 0px 1px;
   padding: 0;
+  border-radius: 0.5rem;
+  flex-wrap: wrap;
 }
-figcaption {
+/* figcaption {
   font-size: large;
   padding: 0.5rem 1rem;
   text-align: left;
@@ -53,7 +88,7 @@ p {
   padding: 1rem;
   margin: 3rem;
   text-align: center;
-}
+} */
 a:link,
 a:visited {
   background: rgb(5, 5, 120);
@@ -61,7 +96,21 @@ a:visited {
   padding: 6px 8px;
   text-align: left;
   text-decoration: none;
-  display: inline;
-  width: 13%;
-  float: right;
+  display: block;
+  width: 7rem;
+  /* float: right; */
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  p {
+    color: red;
+    font: small;
+  }
+}
+@media screen and (max-width: 900px) {
+  div {
+    font-size: 50px;
+    background-color: pink;
+    color: black;
+  }
 }
