@@ -109,8 +109,49 @@ a:visited {
 }
 @media screen and (max-width: 900px) {
   div {
-    font-size: 50px;
     background-color: pink;
-    color: black;
+  }
+}
+
+[class*="block"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .block-s-1 {
+    width: 8.33%;
+  }
+  .block-s-2 {
+    width: 16.66%;
+  }
+  .block-s-3 {
+    width: 25%;
+  }
+  .block-s-3 {
+    width: 33.33%;
+  }
+  .block-s-3 {
+    width: 41.66%;
+  }
+  .block-s-3 {
+    width: 50%;
+  }
+  .block-s-3 {
+    width: 58.33%;
+  }
+  .block-s-3 {
+    width: 66.66%;
+  }
+  .block-s-3 {
+    width: 75%;
+  }
+  .block-s-3 {
+    width: 83.33%;
+  }
+  .block-s-3 {
+    width: 91.66%;
+  }
+  .block-s-3 {
+    width: 100%;
   }
 }
