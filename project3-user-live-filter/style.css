@@ -10,8 +10,8 @@ body {
 }
 section {
   background: white;
-  width: 30%;
-  height: 73%;
+  width: 25%;
+  height: 60%;
   margin: 0 auto;
   margin-top: 2rem;
   padding: 0 auto;
@@ -47,7 +47,7 @@ label {
 }
 
 figure {
-  height: 14%;
+  height: 12%;
   padding: 0.1rem;
 }
 hr {
@@ -58,10 +58,13 @@ img {
   width: 7%;
   border-radius: 50%;
   float: left;
+  padding: 5px;
+  padding-left: none;
 }
 figcaption {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
+  padding-bottom: 0.5rem;
 }
 span {
   font-size: small;
