@@ -47,7 +47,7 @@ figure {
 figcaption {
   padding-top: 3rem;
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /*
@@ -108,31 +108,28 @@ a:visited {
     text-align: center;
   }
 
-  .block{
+  .block {
     flex-direction: column;
   }
 
-  figure{
+  figure {
     flex-direction: column;
   }
 
-  img{
+  img {
     width: 100%;
     height: 15rem;
   }
 
-  figcaption{
+  figcaption {
     text-align: center;
     padding-top: 1rem;
   }
 
-  nav{
+  nav {
     padding: 2rem;
     align-self: center;
   }
-  
-
-  
 }
 @media screen and (max-width: 900px) {
   div {

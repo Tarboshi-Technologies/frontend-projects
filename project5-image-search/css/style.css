@@ -3,7 +3,7 @@
 }
 body {
   font-family: poppins, sans-serif;
-  margin: 0;
+  margin: 0 auto;
   background: #fdfcfc;
   width: 80%;
   display: flex;
@@ -12,16 +12,14 @@ body {
 }
 
 main {
-  flex-direction: column;
-}
-section {
-  display: flex;
-  flex-direction: row;
+  /* flex-direction: column; */
+  margin: 0 auto;
+
 }
 
-section > div {
-  display: flex;
-  flex-direction: column;
+section {
+  margin: 0 auto;
+  padding: 0;
 }
 
 header {
@@ -58,25 +56,31 @@ h2 {
   border-radius: 0.3rem;
   margin-left: none;
 }
-img {
-  width: 200px;
-  height: 100px;
-  border-radius: 5%;
+
+figure:hover {
+  background-color: lightgray;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
+
 figure {
   float: right;
-  width: 33.33%;
-  padding: 5px;
+  width: 25%;
+  border: none;
+  box-shadow: 0 0 1px lightgray;
+  margin: .5rem;
 }
-section::after {
-  content: "";
-  clear: left;
-  display: table-cell;
+
+figcaption {
+  padding: 0.5rem;
+  margin: 0rem;
 }
-[class*="oraimo"]{
+
+figure > img{
   width: 100%;
 }
-@media only screen and (min-width: 480px){
+
+@media only screen and (min-width: 600px) {
   .oraimo-s-1 {
     width: 8.33%;
   }
@@ -86,31 +90,69 @@ section::after {
   .oraimo-s-3 {
     width: 25%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-4 {
     width: 33.33%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-5 {
     width: 41.66%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-6 {
     width: 50%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-7 {
     width: 58.33%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-8 {
     width: 66.66%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-9 {
     width: 75%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-10 {
     width: 83.33%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-11 {
     width: 91.66%;
   }
-  .oraimo-s-3 {
+  .oraimo-s-12 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .oraimo-1 {
+    width: 8.33%;
+  }
+  .oraimo-2 {
+    width: 16.66%;
+  }
+  .oraimo-3 {
+    width: 25%;
+  }
+  .oraimo-4 {
+    width: 33.33%;
+  }
+  .oraimo-5 {
+    width: 41.66%;
+  }
+  .oraimo-6 {
+    width: 50%;
+  }
+  .oraimo-7 {
+    width: 58.33%;
+  }
+  .oraimo-8 {
+    width: 66.66%;
+  }
+  .oraimo-9 {
+    width: 75%;
+  }
+  .oraimo-10 {
+    width: 83.33%;
+  }
+  .oraimo-11 {
+    width: 91.66%;
+  }
+  .oraimo-12 {
     width: 100%;
   }
 }
