@@ -5,3 +5,42 @@ body {
   background: #f9f9f9;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+ul{
+  list-style-type: none;
+}
+#box{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+#navigation{
+  background-color: #fff;
+  height: 70px;
+  color: rgb(236, 98, 35);
+  padding: 10px;
+  box-shadow: 0 0 10px gray;
+  margin: 0;
+}
+#navigation a{
+  color: rgb(180, 179, 179);
+  text-decoration: none;
+  font-size: x-small;
+  font-weight: 300;
+  padding: 0 auto;
+}
+#navigation #box{
+  display: flex;
+  justify-content: space-between;
+}
+#navigation ul{
+  display: flex;
+}
+#navigation ul li{
+  margin-left: 20px;
+}
+
+#main{
+  padding-top: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
