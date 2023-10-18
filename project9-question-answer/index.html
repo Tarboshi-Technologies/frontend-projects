@@ -5,36 +5,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Question Answer</title>
-  <link rel="stylesheet" href="css/fontawesome/css/all.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div id="white_box">
-    <details>
-      <summary id="summary_one">Do You Accept All Major Credit Cards?</summary>
-      <i class="fa-light fa-square-plus"></i>
-    </details>
-  </div>
-  <div class="white_box_big">
-    <details>
-      <summary class="summary_two">Do You Support Local Farmers?</summary>
-      <i class="fa-regular fa-square-minus"></i>
-      <hr>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat,
-        magni numquam repellat reprehenderit.</p>
-    </details>
-  </div>
-  <div class="white_box_big">
-    <details>
-      <summary class="summary_two">Do You Use Organic Ingridents?</summary>
-      <i class="fa-regular fa-square-minus"></i>
-      <hr>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, obcaecati. Esse maxime doloremque,libero,
-        repellat quae debittis quis illo ab odio vero iste molestias accusantuim expedita dolorum ipsam officia
-        nesciuent?</p>
-    </details>
+  <div class="parent">
+    <div class="white_box">
+      <details>
+        <summary class="summary">Do You Accept All Major Credit Cards?<i class="fa-regular fa-square-plus"></i>
+        </summary>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat,
+          magni numquam repellat reprehenderit.</p>
+      </details>
+    </div>
+    <div class="white_box">
+      <details open>
+        <summary class="summary">Do You Support Local Farmers?<i class="fa-regular fa-square-minus"></i>
+        </summary>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est dolore illo dolores quia nemo doloribus quaerat,
+          magni numquam repellat reprehenderit.</p>
+      </details>
+    </div>
+    <div class="white_box">
+      <details open>
+        <summary class="summary">Do You Use Organic Ingridents?<i class="fa-regular fa-square-minus"></i>
+        </summary>     
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, obcaecati. Esse maxime doloremque,libero,
+          repellat quae debittis quis illo ab odio vero iste molestias accusantuim expedita dolorum ipsam officia
+          nesciuent?</p>
+      </details>
+    </div>
   </div>
 </body>
-
 </html>
