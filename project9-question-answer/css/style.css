@@ -5,19 +5,6 @@ body {
   background: #f9f9f9;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-/* #white_box {
-  display: flex;
-  background-color: #fff;
-  width: 40%;
-  height: 10%;
-  margin: 4rem 10rem 2rem 27rem;
-  color: rgb(62, 163, 62);
-  padding: 2rem 1rem;
-  margin: 0;
-  font-weight: 700;  border-radius: 5px;
-  box-shadow: 0 0 5px gray;
-} */
-
 .parent{
   margin-top: 10rem;
 }
@@ -34,7 +21,6 @@ body {
   margin: 0 auto;
   margin-top: 2rem;
   border: none;
-  flex-wrap: wrap;
   background: #fff;
   padding: 3rem 1rem;
   color: rgb(62, 163, 62);
