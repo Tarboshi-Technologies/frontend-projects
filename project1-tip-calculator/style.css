@@ -1,79 +1,70 @@
-section{
-    font-family: "Helvetica", sans-serif;
-    width: 60%;
-    height: 9%; 
-    background-color: white;
-    pad: 40rem;
+section {
+  font-family: "Helvetica", sans-serif;
+  width: 60%;
+  height: 9%;
+  background-color: white;
+  pad: 40rem;
 }
 
-header,div{
-    background-color: white;
+header,
+div {
+  background-color: white;
 }
 
-header{
-    margin: 10px;
+header {
+  margin: 10px;
 }
 
 * {
-    box-sizing: border-box;
-    max-width: 800px;
-    margin: auto;
-    background: gainsboro;
-    padding: 8px;
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: auto;
+  background: gainsboro;
+  padding: 8px;
 }
 
-#first{
-    text-align: center;
-    font-size: 50px;
-    background-color: white;
+#first {
+  text-align: center;
+  font-size: 50px;
+  background-color: white;
 }
 
 label {
   padding-bottom: 3px;
 }
 
-.mode>input{
-    width: 99%;
-    margin: 5px 5px ;
-    background-color: white;
-    margin-left: 12px;
+.mode > input {
+  width: 99%;
+  margin: 5px 5px;
+  background-color: white;
+  margin-left: 12px;
 }
 
-.mode{
-    width: 100%;
-    background-color: white;
+.mode {
+  width: 100%;
+  background-color: white;
 }
 
-.mode>h3{
-    text-align: center;
-    background-color: rgb(49, 159, 49);
-    color: white;
-    width: 423px;
-    margin: auto;
-
+.mode > h3 {
+  text-align: center;
+  background-color: rgb(49, 159, 49);
+  color: white;
+  width: 423px;
+  margin: auto;
 }
 
-#ox>b{
-    font-size: xx-large;
-    background-color: white;
-} 
-
-#contain{
-    background-color: white;
-}
-
-<<<<<<< master
-label,p,#ox{
-    background-color: white;
-    margin: 0 4px;
-=======
-.ox {
-  margin-left: 1rem;
-  font-size: 18px;
-}
-
-.ox > b {
+#ox > b {
   font-size: xx-large;
   background-color: white;
->>>>>>> local
+}
+
+#contain {
+  background-color: white;
+}
+
+label,
+p,
+#ox {
+  background-color: white;
+  margin: 0 4px;
 }
