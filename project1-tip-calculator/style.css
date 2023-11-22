@@ -62,7 +62,18 @@ label {
     background-color: white;
 }
 
+<<<<<<< master
 label,p,#ox{
     background-color: white;
     margin: 0 4px;
+=======
+.ox {
+  margin-left: 1rem;
+  font-size: 18px;
+}
+
+.ox > b {
+  font-size: xx-large;
+  background-color: white;
+>>>>>>> local
 }
