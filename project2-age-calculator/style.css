@@ -18,7 +18,10 @@ section {
 }
 h1 {
   font-size: 30px;
-  /* padding: 0rem; */
+  color: #333;
+}
+label {
+  color: #333;
 }
 
 #date {
@@ -26,18 +29,20 @@ h1 {
   margin: 0.5rem;
   padding: 2px;
 }
-#calculate-btn {
+#calc-btn {
   width: 20%;
   background: rgb(4, 120, 252);
   color: white;
   border: none;
   border-radius: 0.2rem;
   padding: 7px;
+  margin-top: 5px;
   font-size: 12px;
+  cursor: pointer;
 }
 .div_p {
   margin-top: 5px;
   font-size: 22px;
-  color: #555;
+  color: #333;
   padding-top: 5px;
 }
