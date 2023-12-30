@@ -18,7 +18,7 @@ function calculateAge() {
 
   var dob = new Date(dateInput.value);
   if (dateInput.value == "" || dateInput.value == null) {
-    alert("Enter a valid date");
+    alert("Enter valid date");
     return;
   }
 

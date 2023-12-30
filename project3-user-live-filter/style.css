@@ -1,21 +1,22 @@
 body {
   background-color: #f8f9fd;
   font-family: "Roboto", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 97vh;
   overflow: hidden;
   margin: 0;
 }
-section {
+.container {
   background: white;
-  width: 25%;
-  height: 60%;
-  margin: 0 auto;
+  width: 99%;
+  height: 100%;
+  /* margin: 0 auto; */
   margin-top: 2rem;
-  padding: 0 auto;
-  box-shadow: 1px 1px 1px 1px rgb(210, 206, 206);
+  margin-left: 0.5rem;
+  /* padding: 0 auto; */
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.3);
   border: none;
   border-radius: 1rem;
 }
@@ -36,7 +37,7 @@ label {
   font-size: small;
   padding: 1rem;
 }
-#search {
+input[type="search"] {
   width: 90%;
   padding: 0.5rem;
   margin: 1rem;
@@ -49,17 +50,21 @@ label {
 figure {
   height: 12%;
   padding: 0.1rem;
+  /* margin-left: 18rem; */
 }
+
 hr {
   border: 1px solid rgb(241, 238, 238);
+  margin-bottom: 0;
 }
 
 img {
-  width: 7%;
+  width: 4%;
   border-radius: 50%;
   float: left;
-  padding: 5px;
-  padding-left: none;
+  /* padding: 5px; */
+  /* padding-left: 1rem; */
+  /* margin-left: 15rem; */
 }
 figcaption {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
