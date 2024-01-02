@@ -8,12 +8,9 @@ document.getElementById("search").addEventListener("click", (e) => {
 function loadUsers(searchValue = "") {
   var users = [];
 
-  searchValue = searchValue ? searchValue : "tesla";
-  let url = `https://newsapi.org/v2/everything?q=${searchValue}&apiKey=886b5f9aaf0643f1be5a9134a255e56e`;
-
   var mainElement = document.getElementById("mainSection");
 
-  fetch(url)
+  fetch("./user.json")
     .then((response) => {
       return response.json();
     })
@@ -21,23 +18,19 @@ function loadUsers(searchValue = "") {
       console.log("users", data);
 
       if (searchValue) {
-        users = data.articles;
+        users = data;
         mainElement.innerHTML = "";
         console.log(users);
       } else {
-        users = data.articles;
+        users = data;
       }
 
       for (let i = 0; i < users.length; i++) {
         var userDivString = `
         <figure class="figure">
-        <img src="${
-          users[i].urlToImage ?? "images/team.jpg"
-        }" alt="football team">
-        <a href="${users[i].url}">${users[i].title}</a>
-        <article>${users[i].description}</article>
-        <figcaption>${users[i].content}</figcaption>
-        <p>${new Date(users[i].publishedAt).toDateString()}</p>
+        <img src="${users[i].image}" alt="football team">
+        <article>${users[i].firstName} ${users[i].lastName}</article>
+        <figcaption>${users[i].city} ${users[i].country}</figcaption>
         </figure>
   `;
 
