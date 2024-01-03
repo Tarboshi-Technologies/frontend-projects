@@ -44,38 +44,5 @@
         "city":"Kumasi",
         "country":"Ghana",
         "image":"user1.jpeg"
-},
-
-{
-        "firstName":"Christiano",
-        "lastName":"Ramsey",
-        "city":"Ajiman",
-        "country":"UAE",
-        "image":"user1.jpeg"
-},
-
-{
-        "firstName":"Karim",
-        "lastName":"Benzema",
-        "city":"Paris",
-        "country":"France",
-        "image":"user1.jpeg"
-},
-
-{
-        "firstName":"David",
-        "lastName":"De gea",
-        "city":"Madrid",
-        "country":"Spain",
-        "image":"user1.jpeg"
-},
-
-{
-        "firstName":"Thomas",
-        "lastName":"Muller",
-        "city":"Munchen",
-        "country":"Germany",
-        "image":"user1.jpeg"
 }
-
 ]

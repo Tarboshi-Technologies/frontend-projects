@@ -1,38 +1,47 @@
-var userFilter = [
-  {
-    firstName: "Blake",
-    lastName: "Gagnon",
-    country: "Brockton, Canada",
-  },
-  {
-    firstName: "Alvilde",
-    lastName: "Madland",
-    country: "Alvilde Madland",
-  },
-  {
-    firstName: "Afsan",
-    lastName: "Pocan",
-    country: "Kirikkale Turkey",
-  },
-  {
-    firstName: "Gordodum",
-    lastName: "Nikolenko",
-    country: "Turka, Ukraine",
-  },
-  {
-    firstName: "Samson ",
-    lastName: "Ogbonna",
-    country: "Enugu, Nigeria",
-  },
-];
-// console.log("hi");
+//fetch users from jso file using Fetch
 
-var inputSearch = document.addEventListener("click", function () {
-  let input = !undefined;
-  input = document.getElementById("search");
-  if (input == undefined || input == !userFilter) {
-    alert("Enter available userfilter");
-  } else {
-    console.log(input.value);
-  }
+loadUsers();
+
+document.getElementById("search").addEventListener("keyup", (e) => {
+  var searchValue = e.target.value;
+  loadUsers(searchValue);
 });
+
+function loadUsers(searchValue = "") {
+  var users = [];
+
+  fetch("./user.json")
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      console.log("users", data);
+      if (searchValue) {
+        users = data.filter(function (item) {
+          return item.firstName.includes(searchValue);
+        });
+        console.log(users);
+      } else {
+        users = data;
+      }
+
+      var mainElement = document.getElementById("section");
+      for (let i = 0; i < users.length; i++) {
+        var userDivString = `
+      <figure>
+            <img src="images/${users[i].image}" alt="boy pic">
+            <figcaption><b>${users[i].firstName} ${users[i].lastName}</b></figcaption>
+            <span>${users[i].city}, ${users[i].country}</span>
+            <hr>
+      </figure>
+  `;
+
+        const parser = new DOMParser();
+        var userDiv = parser.parseFromString(userDivString, "text/html").body
+          .firstChild;
+        mainElement.appendChild(userDiv);
+      }
+    });
+}
+
+//display users on html
