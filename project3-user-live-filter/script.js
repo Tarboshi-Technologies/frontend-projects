@@ -1,5 +1,3 @@
-//fetch users from jso file using Fetch
-
 loadUsers();
 
 document.getElementById("search").addEventListener("click", (e) => {
@@ -13,7 +11,7 @@ function loadUsers(searchValue = "") {
   searchValue = searchValue ? searchValue : "tesla";
   let url = `https://newsapi.org/v2/everything?q=${searchValue}&apiKey=886b5f9aaf0643f1be5a9134a255e56e`;
 
-  var mainElement = document.getElementById("section");
+  var mainElement = document.getElementById("mainSection");
 
   fetch(url)
     .then((response) => {

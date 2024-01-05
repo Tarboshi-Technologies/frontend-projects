@@ -9,24 +9,15 @@
 </head>
 
 <body>
-    <section id="section">
-        <header class="change">
-            <h2 class="change">Live User Filter</h2>
-        </header>
-        <div class="change">
-            <label for="search">Search by name and/or location</label>
-            <input type="search" name="search" id="search" placeholder="search">
-            <button>Search</button>
-            <figure class="figure">
-                <img src="${
-                  users[i].urlToImage ?? " alt="football team">
-                <a href="${users[i].url}">${users[i].title}</a>
-                <article>${users[i].description}</article>
-                <figcaption>${users[i].content}</figcaption>
-                <p>${new Date(users[i].publishedAt).toDateString()}</p>
-            </figure>
+    <section class="container" id="mainSection">
+        <div class="blue_bg">
+            <h2>Live User Filter</h2>
+            <div class="label+input">
+                <label for="search">Search by name and/or location</label>
+                <input type="search" name="search" id="search" placeholder="search">
+                <button>Search</button>
+            </div>
         </div>
-
     </section>
 </body>
 <!-- <script src="./user.json"></script> -->
