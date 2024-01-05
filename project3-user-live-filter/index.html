@@ -16,11 +16,20 @@
         <div class="change">
             <label for="search">Search by name and/or location</label>
             <input type="search" name="search" id="search" placeholder="search">
+            <button>Search</button>
+            <figure class="figure">
+                <img src="${
+                  users[i].urlToImage ?? " alt="football team">
+                <a href="${users[i].url}">${users[i].title}</a>
+                <article>${users[i].description}</article>
+                <figcaption>${users[i].content}</figcaption>
+                <p>${new Date(users[i].publishedAt).toDateString()}</p>
+            </figure>
         </div>
 
     </section>
 </body>
-<script src="./user.json"></script>
+<!-- <script src="./user.json"></script> -->
 <script src="./script.js"></script>
 
 </html>
