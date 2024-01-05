@@ -16,6 +16,7 @@ function loadUsers(searchValue = "") {
     })
     .then((data) => {
       console.log("users", data);
+
       if (searchValue) {
         users = data.filter(function (item) {
           return item.firstName.includes(searchValue);
