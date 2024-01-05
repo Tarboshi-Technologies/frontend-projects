@@ -1,8 +1,9 @@
 loadUsers();
 
-document.getElementById("search").addEventListener("click", (e) => {
-  var searchValue = e.target.value;
+document.getElementById("clickButton").addEventListener("click", (e) => {
+  var searchValue = document.getElementById("search").value;
   loadUsers(searchValue);
+  console.log(searchValue);
 });
 
 function loadUsers(searchValue = "") {
@@ -18,7 +19,14 @@ function loadUsers(searchValue = "") {
       console.log("users", data);
 
       if (searchValue) {
-        users = data;
+        users = data.filter(function (user) {
+          return (
+            user.firstName.toLowerCase().includes(searchValue.toLowerCase()) ||
+            user.lastName.toLowerCase().includes(searchValue.toLowerCase()) ||
+            user.city.toLowerCase().includes(searchValue.toLowerCase()) ||
+            user.country.toLowerCase().includes(searchValue.toLowerCase())
+          );
+        });
         mainElement.innerHTML = "";
         console.log(users);
       } else {
@@ -28,9 +36,9 @@ function loadUsers(searchValue = "") {
       for (let i = 0; i < users.length; i++) {
         var userDivString = `
         <figure class="figure">
-        <img src="${users[i].image}" alt="football team">
-        <article>${users[i].firstName} ${users[i].lastName}</article>
-        <figcaption>${users[i].city} ${users[i].country}</figcaption>
+          <img src="images/team.jpg" alt="football team">
+          <article>${users[i].firstName} ${users[i].lastName}</article>
+          <figcaption>${users[i].city} ${users[i].country}</figcaption>
         </figure>
   `;
 

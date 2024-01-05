@@ -4,7 +4,7 @@
         "lastName":"Gagnon",
         "city":"Brockton",
         "country":"Canada",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
     },
 
     {
@@ -12,7 +12,7 @@
         "lastName":"Madland",
         "city":"Kalvag",
         "country":"Norway",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
     },
 
     {
@@ -20,7 +20,7 @@
         "lastName":"Pocan",
         "city":"Kirikkale",
         "country":"Turkey",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
     },
 
     {
@@ -28,14 +28,14 @@
         "lastName":"Nikolenko",
         "city":"Turka",
         "country":"Ukraine",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
     },
 {
         "firstName":"Samson",
         "lastName":"Ogbonna",
         "city":"Enugu",
         "country":"Nigeria",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
 } ,
 
 {
@@ -43,7 +43,7 @@
         "lastName":"Kodili",
         "city":"Kumasi",
         "country":"Ghana",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
 },
 
 {
@@ -51,7 +51,7 @@
         "lastName":"Ramsey",
         "city":"Ajiman",
         "country":"UAE",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
 },
 
 {
@@ -59,7 +59,7 @@
         "lastName":"Benzema",
         "city":"Paris",
         "country":"France",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
 },
 
 {
@@ -67,7 +67,7 @@
         "lastName":"De gea",
         "city":"Madrid",
         "country":"Spain",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
 },
 
 {
@@ -75,7 +75,7 @@
         "lastName":"Muller",
         "city":"Munchen",
         "country":"Germany",
-        "image":"user1.jpeg"
+        "image":"team.jpg"
 }
 
 ]
