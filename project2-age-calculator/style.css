@@ -1,17 +1,14 @@
-body {
+/* body {
   margin: 0;
-  /* padding: 20px; */
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: #f8f8f8;
 }
 
-section {
+div.first {
   width: 100%;
   background: white;
   text-align: center;
   border-radius: 1rem;
-  /* margin-left: 500px; */
-  /* margin-top: 30px; */
   padding: 2rem 0rem;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
 }
@@ -50,4 +47,4 @@ label {
   font-size: 22px;
   color: #333;
   padding-top: 5px;
-}
+} */
