@@ -3,7 +3,6 @@ section {
   display: flex;
   width: 80%;
   height: 200px;
-  /* padding: 0 2rem; */
   margin: 0 auto;
   margin-top: 2rem;
   flex-direction: column;
@@ -50,22 +49,6 @@ figcaption {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-/*
-.class {
-  display: block;
-  flex-direction: column;
-  background: white;
-  box-shadow: 2px 2px 2px 2px solid gray;
-}
-#block > div {
-  background-color: white;
-  width: 100%;
-  margin: 10px;
-  text-align: center;
-  line-height: 400px;
-  box-shadow: lightgray;
-} */
-
 img {
   width: 130px;
   height: 135px;
@@ -75,19 +58,6 @@ img {
   border-radius: 0.5rem;
   flex-wrap: wrap;
 }
-/* figcaption {
-  font-size: large;
-  padding: 0.5rem 1rem;
-  text-align: left;
-  justify-content: center;
-}
-p {
-  font-size: small;
-  color: rgb(151, 147, 147);
-  padding: 1rem;
-  margin: 3rem;
-  text-align: center;
-} */
 a:link,
 a:visited {
   background: rgb(5, 5, 120);
@@ -97,7 +67,6 @@ a:visited {
   text-decoration: none;
   display: block;
   width: 7rem;
-  /* float: right; */
 }
 
 @media screen and (max-width: 900px) {

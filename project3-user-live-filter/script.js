@@ -41,6 +41,8 @@ async function loadUsers(searchValue = "") {
       <article>${users[i].firstName} ${users[i].lastName}</article>
       <figcaption>${users[i].city} ${users[i].country}</figcaption>
     </figure>
+    <hr>
+    
 `;
 
     const parser = new DOMParser();
