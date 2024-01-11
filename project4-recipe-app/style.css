@@ -37,16 +37,9 @@ p {
 nav {
   padding-top: 4rem;
 }
-
 figure {
   display: flex;
   flex-direction: row;
-}
-
-figcaption {
-  padding-top: 3rem;
-  font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 img {
@@ -58,16 +51,28 @@ img {
   border-radius: 0.5rem;
   flex-wrap: wrap;
 }
+
+figcaption {
+  padding-top: 3rem;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 a:link,
 a:visited {
   background: rgb(5, 5, 120);
   color: white;
   padding: 6px 8px;
-  text-align: left;
+  text-align: center;
+  margin-right: 0;
   text-decoration: none;
   display: block;
   width: 7rem;
 }
+/* figure {
+  display: flex;
+  flex-direction: column;
+} */
 
 @media screen and (max-width: 900px) {
   p {
@@ -78,10 +83,6 @@ a:visited {
   }
 
   .block {
-    flex-direction: column;
-  }
-
-  figure {
     flex-direction: column;
   }
 
