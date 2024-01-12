@@ -36,10 +36,10 @@ async function loadUsers(searchValue = "") {
 
   for (let i = 0; i < users.length; i++) {
     var userDivString = `
-    <figure class="figure">
-      <img src="images/team.jpg" alt="football team">
+    <figure class="figure border-bottom">
+      <img class="figure-img img-fluid w-25 float-start me-3" src="images/team.jpg" alt="football team">
       <article>${users[i].firstName} ${users[i].lastName}</article>
-      <figcaption>${users[i].city} ${users[i].country}</figcaption>
+      <figcaption class="figure-caption">${users[i].city} ${users[i].country}</figcaption>
     </figure>
     <hr>
     

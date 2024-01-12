@@ -1,43 +1,9 @@
 .blue_bg {
   background-color: rgb(48, 48, 222);
   opacity: 0.9;
-  width: 50%;
-  margin-left: 23.5em;
 }
+
 input[type="search"] {
-  width: 70%;
   background-color: rgb(14, 14, 125);
   color: rgb(14, 14, 125);
-  opacity: 0.9;
-  border: none;
-}
-input[type="search"]::placeholder {
-  color: rgb(152, 151, 151);
-  font-size: 18px;
-}
-figure {
-  width: 95%;
-  height: 100px;
-  background-color: #fff;
-  border: none;
-  border-bottom: 2px solid lightgray;
-}
-img {
-  width: 200px;
-  height: 100px;
-  float: left;
-  margin-right: 15px;
-}
-article {
-  font-size: 18px;
-  font-weight: 500;
-  color: #555;
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-figcaption {
-  font-size: 16px;
-  color: #555;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  margin-top: 20px;
 }
