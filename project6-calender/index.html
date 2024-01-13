@@ -6,67 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calender</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body>
-    <div id="box">
-        <h2>OCTOBER <br>
-            <p> Wed oct 04 2023</p>
-        </h2>
-
-        <main>
-            <ul id="listhead">
-                <li class="none">Mon</li>
-                <li class="none">Tue</li>
-                <li class="none">Wed</li>
-                <li class="none">Thu</li>
-                <li class="none">Fri</li>
-                <li class="none">Sat</li>
-                <li class="none">Sun</li>
-            </ul>
-            <ul class="listmain">
-                <li class="single">1</li>
-                <li class="single">2</li>
-                <li class="single">3</li>
-                <li class="single">4</li>
-                <li class="single">5</li>
-                <li class="single">6</li>
-                <li class="single">7</li>
-            </ul>
-            <ul class="listmain">
-                <li class="single">8</li>
-                <li class="single">9</li>
-                <li class="ok">10</li>
-                <li class="ok">11</li>
-                <li class="ok">12</li>
-                <li class="ok">13</li>
-                <li class="ok">14</li>
-            </ul>
-            <ul class="listmain">
-                <li class="ok">15</li>
-                <li class="ok">16</li>
-                <li class="ok">17</li>
-                <li class="ok">18</li>
-                <li class="ok">19</li>
-                <li class="ok">20</li>
-                <li class="ok">21</li>
-            </ul>
-            <ul class="listmain">
-                <li class="ok">22</li>
-                <li class="ok">23</li>
-                <li class="ok">24</li>
-                <li class="ok">25</li>
-                <li class="ok">26</li>
-                <li class="ok">27</li>
-                <li class="ok">28</li>
-            </ul>
-            <ul id="last">
-                <li class="last">29</li>
-                <li class="last">30</li>
-                <li class="last">31</li>
-            </ul>
-        </main>
+<body class="body">
+    <div class="container w-25 my-5 shadow p-1 pb-0 pt-0 ps-0 pe-0 mb-0 bg-body-tertiary rounded">
+        <div class="green_bg" class="pb-0">
+            <h2 class="fs-4 fw-bold text-center p-3 text-white mb-0">OCTOBER <br>
+                <p class="fs-6 fw-bold"> Wed oct 04 2023</p>
+            </h2>
+        </div>
+        <table class="table bg-dark">
+            <thead>
+                <tr>
+                    <th class="bg-dark text-white border border-0" scope="col">Sun</th>
+                    <th class="bg-dark text-white border border-0" scope="col">Mon</th>
+                    <th class="bg-dark text-white border border-0" scope="col">Tue</th>
+                    <th class="bg-dark text-white border border-0" scope="col">Wed</th>
+                    <th class="bg-dark text-white border border-0" scope="col">Thur</th>
+                    <th class="bg-dark text-white border border-0" scope="col">Fri</th>
+                    <th class="bg-dark text-white border border-0" scope="col">Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="bg-dark text-white ps-3 border border-0">1</td>
+                    <td class="bg-dark text-white ps-3 border border-0">2</td>
+                    <td class="bg-dark text-white ps-3 border border-0">3</td>
+                    <td class="bg-dark text-white ps-3 border border-0">4</td>
+                    <td class="bg-dark text-white ps-3 border border-0">5</td>
+                    <td class="bg-dark text-white ps-3 border border-0">6</td>
+                    <td class="bg-dark text-white ps-3 border border-0">7</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td class="bg-dark text-white ps-3 border border-0">8</td>
+                    <td class="bg-dark text-white ps-3 border border-0">9</td>
+                    <td class="bg-dark text-white ps-3 border border-0">10</td>
+                    <td class="bg-dark text-white ps-3 border border-0">11</td>
+                    <td class="bg-dark text-white ps-3 border border-0">12</td>
+                    <td class="bg-dark text-white ps-3 border border-0">13</td>
+                    <td class="bg-dark text-white ps-3 border border-0">14</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td class="bg-dark text-white ps-3 border border-0">15</td>
+                    <td class="bg-dark text-white ps-3 border border-0">16</td>
+                    <td class="bg-dark text-white ps-3 border border-0">17</td>
+                    <td class="bg-dark text-white ps-3 border border-0">18</td>
+                    <td class="bg-dark text-white ps-3 border border-0">19</td>
+                    <td class="bg-dark text-white ps-3 border border-0">20</td>
+                    <td class="bg-dark text-white ps-3 border border-0">21</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td class="bg-dark text-white ps-3 border border-0">22</td>
+                    <td class="bg-dark text-white ps-3 border border-0">23</td>
+                    <td class="bg-dark text-white ps-3 border border-0">24</td>
+                    <td class="bg-dark text-white ps-3 border border-0">25</td>
+                    <td class="bg-dark text-white ps-3 border border-0">26</td>
+                    <td class="bg-dark text-white ps-3 border border-0">27</td>
+                    <td class="bg-dark text-white ps-3 border border-0">28</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td class="bg-dark text-white ps-3 border border-0">29</td>
+                    <td class="bg-dark text-white ps-3 border border-0">30</td>
+                    <td class="bg-dark text-white ps-3 border border-0">31</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
