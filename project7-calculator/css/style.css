@@ -1,1 +1,9 @@
+#btn-container {
+  position: absolute;
+  top: 15rem;
+  right: 38.5rem;
+}
 
+#green-btn {
+  background-color: lightgreen;
+}

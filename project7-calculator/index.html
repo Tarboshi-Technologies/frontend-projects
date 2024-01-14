@@ -12,43 +12,57 @@
 </head>
 
 <body>
-    <div class="container w-25 my-5 bg-success text-center bg-body-secondary rounded-4 py-3 shadow-md">
+    <div class="container w-25 my-5 bg-success text-center bg-body-secondary rounded-4 py-3 shadow-md ">
         <p class="bg-white text-start ps-2 p-2 fs-5 fw-bold shadow rounded-4">9658</p>
-        <div class="container-fluid p-2 ">
-            <button class="bg-danger p-2 px-4 me-3 ms-0 border border-0 rounded-2 text-white fs-4 fw-bold">C</button>
-            <button class="bg-primary p-2 px-4 me-3 border border-0 rounded-2 text-white fs-4 fw-bold">/</button>
-            <button class="bg-primary p-2 px-4 me-5 border border-0 rounded-2 text-white fs-4 fw-bold">&lowast;</button>
-        </div>
 
-        <div class="container-fluid p-2 mb-0">
-            <button class="bg-white p-2 px-4 me-3 ms-0 border border-0 rounded-2 text-black fs-4 fw-bold">7</button>
-            <button class="bg-white p-2 px-4 me-3 border border-0 rounded-2 text-black fs-4 fw-bold">8</button>
-            <button class="bg-white p-2 px-4 me-5 border border-0 rounded-2 text-black fs-4 fw-bold">9</button>
-        </div>
-        <div class="container-fluid mb-0">
-            <button class="bg-white p-2 px-4 me-3  mt-2 border border-0 rounded-2 text-black fs-4 fw-bold">4</button>
-            <button class="bg-white p-2 px-4 me-3  border border-0 rounded-2 text-black fs-4 fw-bold">5</button>
-            <button class="bg-white p-2 px-4 me-5  border border-0 rounded-2 text-black fs-4 fw-bold">6</button>
-        </div>
         <div>
-            <button
-                class="bg-white p-2 px-4 me-3 ms-1 mt-3 border border-0 rounded-2 text-black fs-4 fw-bold">1</button>
-            <button class="bg-white p-2 px-4 me-2 ms-0  border border-0 rounded-2 text-black fs-4 fw-bold">2</button>
-            <button class="bg-white p-2 px-4 me-5 ms-2 border border-0 rounded-2 text-black fs-4 fw-bold">3</button>
-        </div>
-        <div>
-            <button
-                class="bg-white p-2 px-4 mt-3 ms-0 mx-5 me-5  border border-0 rounded-2 text-black fs-4 fw-bold">0</button>
-            <button
-                class="bg-white p-2 px-4  ms-0 mx-5  me-5 border border-0 rounded-2 text-black fs-4 fw-bold">.</button>
-        </div>
-        <div class="d-flex align-items-end flex-column ">
-            <button class="bg-primary p-2 px-4  border border-0 rounded-2 text-white fs-4 fw-bold">&minus;</button>
-            <button class="bg-primary p-2 px-4 border border-0 rounded-2 text-white fs-4 fw-bold">&plus;</button>
-            <button
-                class="bg-success p-4 px-4 border border-0 rounded-2 text-black fs-4 fw-bold text-white">&equals;</button>
+            <div class="container text-center">
+                <div class="row row-cols-6 pt-3">
+                    <button class="bg-danger ms-4 border border-0 rounded-2 text-white fs-4 fw-bold">C</button>
+                    <button class="bg-primary ms-3 border border-0 rounded-2 text-white fs-4 fw-bold">/</button>
+                    <button class="bg-primary ms-4 border border-0 rounded-2 text-white fs-4 fw-bold">&lowast;</button>
+                    <button class="bg-primary ms-3 border border-0 rounded-2 text-white fs-4 fw-bold">&minus;</button>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row row-cols-6 pt-3">
+                    <button class="bg-white ms-4 px-4 border border-0 rounded-2 text-black fs-4 fw-bold">7</button>
+                    <button class="bg-white ms-3 px-4 border border-0 rounded-2 text-black fs-4 fw-bold">8</button>
+                    <button class="bg-white ms-4 border border-0 rounded-2 text-black fs-4 fw-bold">9</button>
+                    <button class="bg-primary ms-3 border border-0 rounded-2 text-white fs-4 fw-bold">&plus;</button>
+                </div>
+            </div>
+
+            <div class="container text-center">
+                <div class="row row-cols-6 pt-3">
+                    <button class="bg-white ms-4 border border-0 rounded-2 text-black fs-4 fw-bold">4</button>
+                    <button class="bg-white ms-3 border border-0 rounded-2 text-black fs-4 fw-bold">5</button>
+                    <button class="bg-white ms-4 border border-0 rounded-2 text-black fs-4 fw-bold">6</button>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row row-cols-6 pt-3">
+                    <button class="bg-white ms-4 border border-0 rounded-2 text-black fs-4 fw-bold">1</button>
+                    <button class="bg-white ms-3 border border-0 rounded-2 text-black fs-4 fw-bold">2</button>
+                    <button class="bg-white ms-4  border border-0 rounded-2 text-black fs-4 fw-bold">3</button>
+                </div>
+            </div>
+            <div class="container text-center">
+                <div class="row row-cols-6 pt-3">
+                    <button class="bg-white ms-4 border border-0 rounded-2 text-black fs-4 fw-bold">0</button>
+                    <button
+                        class="bg-white ms-3 border border-0 rounded-2 text-black fs-4 fw-bold text-center">.</button>
+                </div>
+            </div>
+
+            <div class="float-end mt-2" id="btn-container">
+                <button class="py-5 px-4 ms-3 border border-0 rounded-2 fs-4 fw-bold text-white"
+                    id="green-btn">&equals;</button>
+            </div>
         </div>
     </div>
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
