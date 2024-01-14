@@ -6,29 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Navbar - Contact</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav id="navigation">
-        <div id="main">Sahand Ghavidel</div>
-        <ul id="linkbar">
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="about.html">About</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-        </ul>
+    <div class="container-fluid">
+        <div class="ps-5 shadow p-4 w-100 d-inline-flex">
+            <h3 class="text-danger fs-4 fw-bold me-5">Sahand Ghavidel</h3>
+
+            <nav class="text-end ms-5">
+                <a href="index.html" class="text-secondary text-decoration-none px-2">Home</a>
+            </nav>
+            <nav>
+                <a href="about.html" class="text-secondary text-decoration-none px-2">About</a>
+            </nav>
+            <nav>
+                <a href="contact.html" class="text-secondary text-decoration-none px-2">Contact</a>
+            </nav>
         </div>
-    </nav>
+
+    </div>
+
     <main>
         <header>
-            <h1>Contact</h1>
+            <h1 class="px-3">Contact</h1>
         </header>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
