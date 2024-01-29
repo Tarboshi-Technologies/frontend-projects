@@ -1,9 +1,5 @@
 //initialize the values
 
-// $(document).ready(function () {
-//   alert("jquery is working");
-// });
-
 const billAmountinput = $("#amount");
 const tipPercentageinput = $("#percent");
 const billResult = $("#bill-result");
@@ -12,7 +8,7 @@ const calculateBtn = $("#calc-btn");
 let billValid = false;
 let percentValid = false;
 
-$(billAmountinput).keyup(function (event) {
+billAmountinput.keyup(function (event) {
   let value = event.target.valueAsNumber;
   if (value < 0 || !value) {
     alert("enter positive number for bill amount");
@@ -32,7 +28,7 @@ $(billAmountinput).keyup(function (event) {
   }
 });
 
-$(tipPercentageinput).keyup(function (e) {
+tipPercentageinput.keyup(function (e) {
   let value = e.target.valueAsNumber;
   if (value < 0 || !value) {
     alert("enter positive value for tip percentage");
