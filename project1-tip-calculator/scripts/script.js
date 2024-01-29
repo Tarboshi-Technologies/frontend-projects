@@ -12,7 +12,7 @@ const calculateBtn = $("#calc-btn");
 let billValid = false;
 let percentValid = false;
 
-billAmountinput.addEventListener("keyup", function (event) {
+$(billAmountinput).keyup(function (event) {
   let value = event.target.valueAsNumber;
   if (value < 0 || !value) {
     alert("enter positive number for bill amount");
@@ -32,7 +32,7 @@ billAmountinput.addEventListener("keyup", function (event) {
   }
 });
 
-tipPercentageinput.addEventListener("keyup", function (e) {
+$(tipPercentageinput).keyup(function (e) {
   let value = e.target.valueAsNumber;
   if (value < 0 || !value) {
     alert("enter positive value for tip percentage");
@@ -86,7 +86,7 @@ function calculateTip() {
   billResult.innerHTML = "$ " + total; //` $ ${total}`;
 }
 
-document.getElementById("calc-btn").addEventListener("click", calculateTip);
+$("#calc-btn").click(function () {}, calculateTip);
 
 //1 make sure that a user cannot enter a negative value (DONE)
 //2. convert the result to 2 decimal places
