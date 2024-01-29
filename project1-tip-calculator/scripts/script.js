@@ -1,8 +1,13 @@
 //initialize the values
-const billAmountinput = document.getElementById("amount");
-const tipPercentageinput = document.getElementById("percent");
-const billResult = document.getElementById("bill-result");
-const calculateBtn = document.getElementById("calc-btn");
+
+// $(document).ready(function () {
+//   alert("jquery is working");
+// });
+
+const billAmountinput = $("#amount");
+const tipPercentageinput = $("#percent");
+const billResult = $("#bill-result");
+const calculateBtn = $("#calc-btn");
 
 let billValid = false;
 let percentValid = false;
