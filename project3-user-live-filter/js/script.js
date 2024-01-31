@@ -1,7 +1,7 @@
 loadUsers();
 
-document.getElementById("clickButton").addEventListener("click", (e) => {
-  var searchValue = document.getElementById("search").value;
+$("#clickButton").click(function (e) {
+  var searchValue = $("#search").val();
   loadUsers(searchValue);
   console.log("search value", searchValue);
 });
@@ -9,9 +9,9 @@ document.getElementById("clickButton").addEventListener("click", (e) => {
 async function loadUsers(searchValue = "") {
   var users = [];
 
-  var mainElement = document.getElementById("mainSection");
+  var mainElement = $("#mainSection");
 
-  const response = await fetch("./user.json");
+  const response = await fetch("js/user.json");
   if (!response.ok) {
     const message = `An error occurred : ${response.status}`;
     throw new Error(message);
@@ -28,7 +28,7 @@ async function loadUsers(searchValue = "") {
         user.country.toLowerCase().includes(searchValue.toLowerCase())
       );
     });
-    mainElement.innerHTML = "";
+    mainElement.html("");
     console.log(users);
   } else {
     users = data;
