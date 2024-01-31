@@ -1,12 +1,10 @@
 // initialize the value
 
 function calculateAge() {
-  const dateInput = document.getElementById("date");
-  const displayResult = document.getElementById("result-display");
-
   let dateValid = true;
+  var dateInput = $("#date");
 
-  dateInput.addEventListener("change", function (event) {
+  $("#date").change(function (event) {
     let value = event.target.value;
     console.log(value);
     if (!value) {
@@ -16,8 +14,8 @@ function calculateAge() {
     }
   });
 
-  var dob = new Date(dateInput.value);
-  if (dateInput.value == "" || dateInput.value == null) {
+  var dob = new Date(dateInput.val());
+  if (dateInput.val() == "" || dateInput.val() == null) {
     alert("Enter valid date");
     return;
   }
@@ -41,7 +39,6 @@ function calculateAge() {
 
   //display the calculated age
 
-  let result = document.getElementById("result-display");
-  result.innerHTML = "you are " + age + " " + "years old";
+  $("#result-display").html("you are " + age + " " + "years old");
   return;
 }
