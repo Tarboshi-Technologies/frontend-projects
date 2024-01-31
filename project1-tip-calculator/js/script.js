@@ -1,18 +1,13 @@
 //initialize the values
 
-const billAmountinput = $("#amount");
-const tipPercentageinput = $("#percent");
-const billResult = $("#bill-result");
-const calculateBtn = $("#calc-btn");
-
 let billValid = false;
 let percentValid = false;
 
-billAmountinput.keyup(function (event) {
+$("#amount").keyup(function (event) {
   let value = event.target.valueAsNumber;
   if (value < 0 || !value) {
     alert("enter positive number for bill amount");
-    billAmountinput.value = "";
+    $("#amount").val("");
     billValid = false;
     disableCalculateButton();
     clearResult();
@@ -24,15 +19,15 @@ billAmountinput.keyup(function (event) {
     //enable calculate button
     enableCalculateButton();
   } else {
-    billAmountinput = 0.0;
+    //billAmountinput.value = 0.0;
   }
 });
 
-tipPercentageinput.keyup(function (e) {
-  let value = e.target.valueAsNumber;
+$("#percent").keyup(function (event) {
+  let value = event.target.valueAsNumber;
   if (value < 0 || !value) {
     alert("enter positive value for tip percentage");
-    tipPercentageinput.value = "";
+    $("#percent").val("");
     percentValid = false;
     disableCalculateButton();
     clearResult();
@@ -41,7 +36,7 @@ tipPercentageinput.keyup(function (e) {
 
   if (value > 100 || !value) {
     alert("please enter number less than 100");
-    tipPercentageinput.value = "";
+    $("#percent").val("");
     percentValid = false;
     clearResult();
     return;
@@ -57,33 +52,34 @@ tipPercentageinput.keyup(function (e) {
 });
 
 function enableCalculateButton() {
-  calculateBtn.removeAttribute("disabled");
-  calculateBtn.style.background = "#07b007";
+  var calculateBtn = $("#calc-btn");
+  calculateBtn.removeAttr("disabled");
+  calculateBtn.css("background", "#07b007");
 }
 
 function disableCalculateButton() {
-  calculateBtn.setAttribute("disabled", "");
-  calculateBtn.style.background = "gray";
+  var calculateBtn = $("#calc-btn");
+  calculateBtn.attr("disabled", "");
+  calculateBtn.css("background", "gray");
 }
 
 function clearResult() {
-  billResult.innerHTML = "0.0";
+  $("#bill-result").html("0.0");
 }
 
 function calculateTip() {
   //parse the values as float numbers
-  const billAmount = parseFloat(billAmountinput.value);
-  const tipPercentage = parseFloat(tipPercentageinput.value);
+  const billAmount = parseFloat($("#amount").val());
+  const tipPercentage = parseFloat($("#percent").val());
 
   //compute the total
   let total = (billAmount * tipPercentage) / 100;
 
   //display total
-  billResult.innerHTML = "$ " + total; //` $ ${total}`;
+  $("#bill-result").html("$ " + total); //` $ ${total}`;
 }
 
-$("#calc-btn").click(function () {}, calculateTip);
-
+$("#calc-btn").click(calculateTip);
 //1 make sure that a user cannot enter a negative value (DONE)
 //2. convert the result to 2 decimal places
 //3. tip percent should not be greater than 100 (DONE)
