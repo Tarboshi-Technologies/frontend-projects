@@ -1,7 +1,15 @@
-h2 {
-  background: rgb(5, 5, 96);
+#input_search {
+  color: darkgoldenrod;
 }
 
-a {
-  background-color: rgb(5, 5, 96);
+#input_search::placeholder {
+  color: darkgoldenrod;
+}
+#icon-btn {
+  background-color: darkgoldenrod;
+  cursor: pointer;
+}
+
+.card-img-top {
+  height: 15rem;
 }

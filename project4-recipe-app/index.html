@@ -5,80 +5,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
 </head>
 
 <body>
-    <div class="container bg-white w-75">
-        <h2 class="text-center text-white fs-1 fw-bold p-2">Recipe Book App</h2>
 
-        <figure class="figure shadow-lg rounded-3">
-            <img class="figure-img img-fluid w-25 h-auto float-start me-3" src="images/vege.jpg ">
-            <figcaption class="figure-caption mt-2"> Cucumber Mint Tea Sandwiches</figcaption>
-            <p class="mt-3 mb-0"><b> Ingridients:</b> 4 slices of Bread, 1/2 organic cucumber,thinly sliced,3 tablespoon
-                wasabi <br> maple
-                spread, black pepper grinder,fresh mint leaves,fresh dill,2 tablespoon vegenaines, <br> 1 tablespoon
-                maple
-                syrup, 2 teaspoons wasabi powder,dash of black pepper</p>
-            <nav for="link" class="float-end">
-                <a href="https://publish.purewow.net/wp-content/uploads/sites/2/2016/05/nobu.jpg?fit=618%2C445"
-                    target="_blank" class="text-white p-2 rounded-2 mb-5 mt-0 text-decoration-none">
-                    View
-                    Recipe</a>
-            </nav>
-        </figure>
+    <div class="container bg-light">
+        <h1 class="p-3 my-0 bg-light text-dark fs-1 fw-bolder text-center mt-5">Find Meals For Your Ingredients
+        </h1>
+        <p class="text-center my-0 text-secondary fs-5">Real food doesn't have ingredients, real food is ingredients</p>
+        <p class="text-center text-secondary">-Jamie Oliver</p>
+        <div class="container input-group w-25">
+            <input type="text" class="form-control" id="input_search" placeholder="Search Meal">
+            <div class="input-group-text" id="icon-btn"><i class="fa-solid fa-magnifying-glass"></i></div>
+        </div>
+        <div class="container text-center" id="search-result">
+            <h5 class="my-2">Your Search Results:</h5>
+        </div>
 
-        <figure class="figure shadow-lg rounded-3">
-            <img class="figure-img img-fluid w-25 h-auto float-start me-3" src="images/vege.jpg">
-            <figcaption class="figure-caption mt-2"> Australian Goulash</figcaption>
-            <p class="mt-3 mb-0"><b> Ingridients:</b> 4-5 pounds beef stew cut meat, 1/2 cup beef stock, 1 can tomato
-                sauce <br> (approx 4
-                cups), 1 Tbsp.caraway seeds, 1 cup flor, 2 garlic cloves, sliced thin, 2tsp. <br> Hungarian Hot
-                Paprika, Zest of 1 small lemon, olive oil for searing, 2 large onions, <br> 1 Tbsp. mild Paprika, 1
-                Tbsp.
-                mild paprika,1 Tbsp.salt & pepper, 2 Tbsp.tomato paste</p>
-            <nav for="link" class="float-end">
-                <a href="https://publish.purewow.net/wp-content/uploads/sites/2/2016/05/nobu.jpg?fit=618%2C445"
-                    target="_blank" class="text-white p-2 rounded-2 mb-5 mt-0 text-decoration-none"> View Recipe</a>
-            </nav>
-        </figure>
+        <!-- <div class="modal text-center" tabindex="-1" id="modal-meal">
+            <div class="modal-dialog">
+                <div class="modal-content bg-success">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-center text-white">Sushi</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="text center">
+                        <h3 class="text-white">instructions:</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-white">STEP 1\r\nTO MAKE SUSHI ROLLS: Pat out some rice. Lay a nori sheet on
+                            the mat, shiny-side
+                            down. Dip your hands in the vinegared water, then pat handfuls of rice on top in a 1cm
+                            thick layer, leaving the furthest edge from you clear.\r\n\r\nSTEP 2\r\nSpread over some
+                            Japanese mayonnaise. Use a spoon to spread out a thin layer of mayonnaise down the
+                            middle of the rice.\r\n\r\nSTEP 3\r\nAdd the filling. Get your child to top the
+                            mayonnaise with a line of their favourite fillings – here we’ve used tuna and
+                            cucumber.\r\n\r\nSTEP 4\r\nRoll it up. Lift the edge of the mat over the rice, applying
+                            a little pressure to keep everything in a tight roll.\r\n\r\nSTEP 5\r\nStick down the
+                            sides like a stamp. When you get to the edge without any rice, brush with a little water
+                            and continue to roll into a tight roll.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <p class="bg-info px-4 py-2"><a class="text-center text-white"
+                                href="https://www.bbcgoodfood.com/recipes/simple-sushi">View
+                                Meal</a></p>
+                        <p class="bg-info px-4 py-2"><a class="link-offset-1 text-center text-white"
+                                href="https://www.youtube.com/watch?v=i_zemP3yBKw">watch
+                                video</a></p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
 
-        <figure class="figure shadow-lg rounded-3">
-            <img class="figure-img img-fluid w-25 h-auto float-start me-3" src="images/vege.jpg">
-            <figcaption class="figure-caption mt-2">Greek-Style Baked Fish:Fresh,Simple and Delicious</figcaption>
-            <p class="mt-3 mb-0"><b> Ingredients:</b> 1 bell pepper, 1 bell pepper, Cooked rice,for serving, Cooked
-                rice, for
-                serving,<br>
-                Cooked rice, for serving, 1 tsp Dried basil, 2-3 oz. of crumbled feta cheese per pound of fish,<br>
-                1 Ib
-                fish fillets, 2 Tablespoon olive oil per pound of fish, 1 tsp dried oregano,<br> Freshly ground
-                pepper,
-                1/2 Red onion, Salt & pepper, 1 tomato, 1/4 cup white wine</p>
-            <nav for="link" class="float-end">
-                <a href="https://publish.purewow.net/wp-content/uploads/sites/2/2016/05/nobu.jpg?fit=618%2C445"
-                    target="_blank" class="text-white p-2 rounded-2 mb-5 mt-0 text-decoration-none"> View Recipe</a>
-            </nav>
-        </figure>
+        <main>
+            <div class="row" id="result-display">
+
+            </div>
 
 
-        <figure class="figure shadow-lg rounded-3">
-            <img class="figure-img img-fluid w-25 h-auto float-start me-3" src="images/vege.jpg">
-            <figcaption class="figure-caption mt-2"><b>Mini frittatas with quinoa</b></figcaption>
-            <p class="mt-3 mb-0"><b> Ingridients:</b> 2 cups cooked quinoa(about 3/4 cups uncooked)*, 2 eggs, 2 eggs
-                white,<br> 1 cup
-                zucchini,
-                shredded, 1 cup Swiss cheese, coarsely grated, 1/2 cup ham, diced,<br> 1/4 cup parsely, chopped, 2
-                Tbs
-                parmesian cheese, grated, 1/4 tsp white ground pepper</p>
-            <nav for="link" class="float-end">
-                <a href="https://publish.purewow.net/wp-content/uploads/sites/2/2016/05/nobu.jpg?fit=618%2C445"
-                    target="_blank" class="text-white p-2 rounded-2 mb-5 mt-0 text-decoration-none"> View Recipe</a>
-            </nav>
-        </figure>
+
+            <!-- <div class="modal text-center" tabindex="-1" id="modal-meal2">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-success">
+                        <div class="modal-header">
+                            <h3 class="modal-title text-center text-white">Kumpir</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="text center">
+                            <h3 class="text-white">instructions:</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-white">If you order kumpir in Turkey, the standard filling is first, lots of
+                                butter mashed into the potato, followed by cheese. There’s then a row of other toppings
+                                that you can just point at to your heart’s content – sweetcorn, olives, salami,
+                                coleslaw, Russian salad, allsorts – and you walk away with an over-stuffed potato
+                                because you got ever-excited by the choices on offer.\r\n\r\nGrate (roughly – you can
+                                use as much as you like) 150g of cheese.\r\nFinely chop one onion and one sweet red
+                                pepper.\r\nPut these ingredients into a large bowl with a good sprinkling of salt and
+                                pepper, chilli flakes (optional).",</p>
+                        </div>
+                        <div class="modal-footer">
+                            <p class="bg-info px-4 py-2"><a class="text-center text-white"
+                                    href="http://www.turkeysforlife.com/2013/10/firinda-kumpir-turkish-street-food.html">View
+                                    Meal</a></p>
+                            <p class="bg-info px-4 py-2"><a class="link-offset-1 text-center text-white"
+                                    href="https://www.youtube.com/watch?v=IEDEtZ4UVtI">watch
+                                    video</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal text-center" tabindex="-1" id="modal-meal3">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-success">
+                        <div class="modal-header">
+                            <h3 class="modal-title text-center text-white">Bistek</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="text center">
+                            <h3 class="text-white">instructions:</h3>
+                        </div>
+                        <div class="modal-body">
+                            <p class="text-white">0.\tMarinate beef in soy sauce, lemon (or calamansi), and ground black
+                                pepper for at least 1 hour. Note: marinate overnight for best result\r\n1.\tHeat the
+                                cooking oil in a pan then pan-fry half of the onions until the texture becomes soft. Set
+                                aside\r\n2.\tDrain the marinade from the beef. Set it aside. Pan-fry the beef on the
+                                same pan where the onions were fried for 1 minute per side. Remove from the pan. Set
+                                aside\r\n3.\tAdd more oil if needed. Saute garlic and remaining raw onions until onion
+                                softens.\r\n4.\tPour the remaining marinade and water. Bring to a boil.\r\n5.\tAdd beef.
+                                Cover the pan and simmer until the meat is tender. Note: Add water as
+                                needed.\r\n6.\tSeason with ground black pepper and salt as needed. Top with pan-fried
+                                onions.\r\n7.\tTransfer to a serving plate. Serve hot. Share and Enjoy!\r\n",</p>
+                        </div>
+                        <div class="modal-footer">
+                            <p class="bg-info px-4 py-2"><a class="text-center text-white"
+                                    href="https://panlasangpinoy.com/bistek-tagalog-beefsteak-recipe/">View
+                                    Meal</a></p>
+                            <p class="bg-info px-4 py-2"><a class="link-offset-1 text-center text-white"
+                                    href="https://www.youtube.com/watch?v=xOQON5_S7as">watch
+                                    video</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+            <!-- <div class="row justify-content-between">
+                <div class="col-lg ">
+                    <div class="card">
+                        <img src="https://www.themealdb.com/images/media/meals/g046bb1663960946.jpg"
+                            class="card-img-top " alt="food-image">
+                        <div class="card-body">
+                            <p class="card-text text-center fs-4 fw-bolder">Sushi</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-info fw-bold" data-bs-toggle="modal"
+                                    data-bs-target="#modal-meal">Get
+                                    Recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            <!-- <div class="col-lg">
+                    <div class="card">
+                        <img src="https://www.themealdb.com/images/media/meals/mlchx21564916997.jpg"
+                            class="card-img-top" alt="food-image">
+                        <div class="card-body">
+                            <p class="card-text text-center fs-4 fw-bolder">Kumpir</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-info fw-bold" data-bs-toggle="modal"
+                                    data-bs-target="#modal-meal2">Get Recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg">
+                    <div class="card">
+                        <img src="https://www.themealdb.com/images/media/meals/4pqimk1683207418.jpg"
+                            class="card-img-top" alt="food-image">
+                        <div class="card-body">
+                            <p class="card-text text-center fs-4 fw-bolder">Bistek</p>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-info fw-bold" data-bs-toggle="modal"
+                                    data-bs-target="#modal-meal3">Get Recipe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div> -->
+        </main>
     </div>
+
+
+
+
+
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>

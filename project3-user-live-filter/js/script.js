@@ -24,20 +24,17 @@ async function loadUsers(searchValue = "") {
         );
       });
       mainElement.html("");
-      // console.log(users);
     } else {
       users = data;
     }
 
     for (let i = 0; i < users.length; i++) {
       var userDivString = `
-        <figure class="figure border-bottom">
-          <img class="figure-img img-fluid w-25 float-start me-3" src="images/team.jpg" alt="football team">
-          <article>${users[i].firstName} ${users[i].lastName}</article>
-          <figcaption class="figure-caption">${users[i].city} ${users[i].country}</figcaption>
+        <figure class="flex border-b-2 mb-3">
+          <img class="w-60" src="images/team.jpg" alt="football team">
+          <article class=" font-bold ms-3">${users[i].firstName} ${users[i].lastName}</article>
+          <figcaption class="ms-3">${users[i].city} ${users[i].country}</figcaption>
         </figure>
-        <hr>
-        
     `;
 
       const parser = new DOMParser();
