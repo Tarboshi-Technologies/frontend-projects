@@ -1,65 +1,65 @@
 [
     {
-        "firstName":"Blake",
-        "lastName":"Gagnon",
-        "city":"Brockton",
-        "country":"Canada",
-        "image":"team.jpg"
+        "firstName":"Ering",
+        "lastName":"Halland",
+        "city":"Leeds, United Kingdom",
+        "country":"England",
+        "image":"https://st5.depositphotos.com/43708092/63305/i/450/depositphotos_633054912-stock-photo-erling-haaland-manchester-city-celebrates.jpg"
     },
 
     {
-        "firstName":"Alvilde",
-        "lastName":"Madland",
-        "city":"Kalvag",
-        "country":"Norway",
-        "image":"team.jpg"
+        "firstName":"Harry",
+        "lastName":"Maguire",
+        "city":"Sheffield United Kingdom",
+        "country":"London",
+        "image":"https://www.shutterstock.com/image-photo/harry-maguire-manchester-united-v-260nw-2278255037.jpg"
     },
 
     {
-        "firstName":"Afsan",
-        "lastName":"Pocan",
-        "city":"Kirikkale",
-        "country":"Turkey",
-        "image":"team.jpg"
+        "firstName":"Rasmus",
+        "lastName":"hoijlund",
+        "city":"Copenhagen",
+        "country":"Denmark",
+        "image":"https://media.gettyimages.com/id/1771535739/photo/copenhagen-denmark-rasmus-hojlund-of-manchester-united-celebrates-scoring-a-goal-to-make-the.jpg?s=612x612&w=gi&k=20&c=BuYDE5eWTeJ_7nAg-NiLD2fD7CNiCLqM9GrLJ7f9rWE="
     },
 
     {
-        "firstName":"Gordodum",
-        "lastName":"Nikolenko",
-        "city":"Turka",
-        "country":"Ukraine",
-        "image":"team.jpg"
+        "firstName":"leonel",
+        "lastName":"messi",
+        "city":"Rosario",
+        "country":"Argentina",
+        "image":"https://www.fcbarcelona.com/fcbarcelona/photo/2018/06/22/0860e6be-c1c7-41e6-b3e5-6ea9eb2afac7/PUtqAjty.jpg"
     },
 {
         "firstName":"Samson",
         "lastName":"Ogbonna",
         "city":"Enugu",
         "country":"Nigeria",
-        "image":"team.jpg"
+        "image":"https://scontent.flos1-2.fna.fbcdn.net/v/t39.30808-6/275191912_493558642288610_2049806322981820389_n.jpg?stp=c0.258.640.640a_dst-jpg_p640x640&_nc_cat=105&ccb=1-7&_nc_sid=3d9721&_nc_eui2=AeFZIJeieGe-C5wNZsYoQzWdrIr82Ml7K5GsivzYyXsrkY89wKu1jA7l6fIFuqRscqqtnoRV97bPvpL7Puwq-ayf&_nc_ohc=233ZZv_JwM8AX-ux36D&_nc_zt=23&_nc_ht=scontent.flos1-2.fna&oh=00_AfBe6fBqKKby2ml3Xnug4eeEh3DmQYTt0zD15aiF9suWmA&oe=65D387C4"
 } ,
 
 {
-        "firstName":"Jay",
-        "lastName":"Kodili",
-        "city":"Kumasi",
-        "country":"Ghana",
-        "image":"team.jpg"
+        "firstName":"Aaron",
+        "lastName":"Ramsey",
+        "city":"Caerphilly, United Kingdom",
+        "country":"london",
+        "image":"https://b.fssta.com/uploads/application/soccer/headshots/128.vresize.350.350.medium.72.png"
 },
 
 {
         "firstName":"Christiano",
-        "lastName":"Ramsey",
-        "city":"Ajiman",
-        "country":"UAE",
-        "image":"team.jpg"
+        "lastName":"Ronaldo",
+        "city":"Funchal",
+        "country":"portugal",
+        "image":"https://e0.365dm.com/21/09/2048x1152/skysports-cristiano-ronaldo_5529914.jpg?20210929220208"
 },
 
 {
         "firstName":"Karim",
         "lastName":"Benzema",
-        "city":"Paris",
+        "city":"Lyon",
         "country":"France",
-        "image":"team.jpg"
+        "image":"https://i.guim.co.uk/img/media/87d567aa2fb5072f8db4181ba46748275d6e161d/145_329_3124_1874/master/3124.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=61eb67ea166f9daedd7cdea9defe8614"
 },
 
 {
@@ -67,15 +67,81 @@
         "lastName":"De gea",
         "city":"Madrid",
         "country":"Spain",
-        "image":"team.jpg"
+        "image":"https://phantom-marca.unidadeditorial.es/0fef99f6bfc6e2d3226d08128b8c8442/resize/828/f/jpg/assets/multimedia/imagenes/2023/07/08/16888328365610.jpg"
 },
 
 {
         "firstName":"Thomas",
         "lastName":"Muller",
-        "city":"Munchen",
+        "city":"Weilheim in Oberbayern",
         "country":"Germany",
-        "image":"team.jpg"
+        "image":"https://media.gettyimages.com/id/1402934108/photo/moenchengladbach-germany-thomas-muller-of-germany-celebrates-scoring-their-sides-third-goal.jpg?s=612x612&w=gi&k=20&c=VB5Cyy6aLt4T2qZ5esVvlFh4fTCF3zwzt1v-6YHSSYc="
+},
+
+{
+        "firstName":"Paul",
+        "lastName":"Pogba",
+        "city":"Seine-et-Marne",
+        "country":"france",
+        "image":"https://c8.alamy.com/comp/HTTKFW/paul-pogba-of-manchester-united-during-the-fa-cup-match-between-chelsea-HTTKFW.jpg"
+},
+
+{
+        "firstName":"Victor",
+        "lastName":"Osimhen",
+        "city":"Lagos",
+        "country":"Nigeria",
+        "image":"https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt9a8f0fe120620d36/62b86c40a500e40f222aaaef/GettyImages-1238415790.jpg?auto=webp&format=pjpg&width=3840&quality=60"
+},
+
+{
+        "firstName":"Frankie",
+        "lastName":"De Jong",
+        "city":"Gorinchem",
+        "country":"Netherlands",
+        "image":"https://i.pinimg.com/236x/f7/cb/aa/f7cbaac702350d3d5ba4476c2eafa11d.jpg"
+},
+
+{
+        "firstName":"Kylian",
+        "lastName":"Mbappe",
+        "city":"Paris",
+        "country":"France",
+        "image":"https://frontofficesports.com/wp-content/uploads/2023/07/USATSI_19646371-scaled.jpg?quality=100"
+},
+
+{
+        "firstName":"Bruno",
+        "lastName":"Fernandes",
+        "city":"Maia",
+        "country":"Portugal",
+        "image":"https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blt4a68ea9884cf4c99/642e810e6bf13a7356ee6947/GOAL_-_Blank_WEB_-_Facebook_-_2023-04-06T092110.471.png?auto=webp&format=pjpg&width=3840&quality=60"
+},
+
+{
+        "firstName":"Harry",
+        "lastName":"Kane",
+        "city":"united kingdom",
+        "country":"England",
+        "image":"https://thumbs.dreamstime.com/b/harry-kane-goal-celebration-football-players-pictured-uefa-champions-league-group-h-game-tottenham-hotspur-101589537.jpg"
+},
+
+
+{
+        "firstName":"Neymar jr",
+        "lastName":"Santos",
+        "city":" São Paulo",
+        "country":"Brazil",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/b/bb/Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg"
+},
+
+
+{
+        "firstName":"Marcus",
+        "lastName":"Rashford",
+        "city":"Manchester, United Kingdom",
+        "country":"England",
+        "image":"https://media.gq-magazine.co.uk/photos/62336e3170cf0dcb7613f90c/1:1/w_2560,h_2560,c_limit/GettyImages-1384627371.jpg"
 }
 
 ]

@@ -1,9 +1,4 @@
-.blue_bg {
-  background-color: rgb(48, 48, 222);
-  opacity: 0.9;
-}
-
-input[type="search"] {
-  background-color: rgb(14, 14, 125);
-  color: rgb(14, 14, 125);
+img {
+  float: left;
+  clear: left;
 }

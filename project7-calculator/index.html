@@ -4,59 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/tailwind 3.4.js"></script>
     <title>Calculator</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/boostrap.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- <link rel="stylesheet" href="css/boostrap.min.css"> -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
 </head>
 </head>
 
-<body>
-    <div class="container w-25 my-5 text-center bg-body-secondary rounded-4 py-3 shadow-sm" id="full-container">
-        <p class="bg-white text-start ps-2 p-2 fs-5 fw-bold shadow-sm rounded-4">9658</p>
-        <div class="container text-center">
-            <div class="row row-cols-6 pt-3">
-                <button class="bg-danger ms-4 border border-0 rounded-2 text-white fs-4 fw-bold">C</button>
-                <button class="bg-primary ms-3 border border-0 rounded-2 text-white fs-4 fw-bold">/</button>
-                <button class="bg-primary ms-3 border border-0 rounded-2 text-white fs-4 fw-bold">&lowast;</button>
-                <button class="bg-primary ms-3 border border-0 rounded-2 text-white fs-4 fw-bold">&minus;</button>
-            </div>
-        </div>
-        <div class="container text-center">
-            <div class="row row-cols-6 pt-3">
-                <button class="bg-white ms-4 px-4 border border-0 rounded-2 text-black fs-4 fw-bold">7</button>
-                <button class="bg-white ms-3 px-4 border border-0 rounded-2 text-black fs-4 fw-bold">8</button>
-                <button class="bg-white ms-3 border border-0 rounded-2 text-black fs-4 fw-bold">9</button>
-                <button class="bg-primary ms-3 border border-0 rounded-2 text-white fs-4 fw-bold">&plus;</button>
+<body class="bg-white">
+    <div class="bg-gray-200 w-80 mx-auto mt-40 rounded-md shadow-md ... pt-5 shadow-inner ... pb-2">
+        <p class="text-lg font-bold bg-white w-60 mx-auto py-2 rounded-md shadow-inner ... shadow-md ... ps-3">9658</p>
+        <div>
+            <div class="grid grid-cols-4 gap-4 mt-3 p-2">
+                <button class="bg-red-500 text-lg p-2 text-white font-bold rounded-lg shadow-lg ...">C</button>
+                <button class="bg-blue-500 text-lg p-2 text-white font-bold rounded-lg shadow-lg ...">/</button>
+                <button class="bg-blue-500 text-lg p-2 text-white font-bold rounded-lg shadow-lg ...">&lowast;</button>
+                <button class="bg-blue-500 text-lg p-2 text-white font-bold rounded-lg shadow-lg ...">&minus;</button>
             </div>
         </div>
 
-        <div class="container text-center">
-            <div class="row row-cols-6 pt-3">
-                <button class="bg-white ms-4 border border-0 rounded-2 text-black fs-4 fw-bold">4</button>
-                <button class="bg-white ms-3 border border-0 rounded-2 text-black fs-4 fw-bold">5</button>
-                <button class="bg-white ms-3 border border-0 rounded-2 text-black fs-4 fw-bold">6</button>
-                <button class=" border border-0 rounded-2 ms-3 fs-4 fw-bold text-white" id="green-btn">&equals;</button>
+        <div>
+            <div class="grid grid-cols-4 gap-4 p-2">
+                <button class="bg-white py-2 text-lg text-black font-bold rounded-lg shadow-lg ...">7</button>
+                <button class="bg-white text-lg p-2 text-black font-bold rounded-lg shadow-lg ...">8</button>
+                <button class="bg-white text-lg p-2 text-black font-bold rounded-lg shadow-lg ...">9</button>
+                <button class="bg-blue-500 text-lg p-2 text-white font-bold rounded-lg shadow-lg ...">&plus;</button>
             </div>
         </div>
 
-        <div class="container text-center">
-            <div class="row row-cols-6 pt-3">
-                <button class="bg-white ms-4 border border-0 rounded-2 text-black fs-4 fw-bold">1</button>
-                <button class="bg-white ms-3 border border-0 rounded-2 text-black fs-4 fw-bold">2</button>
-                <button class="bg-white ms-3  border border-0 rounded-2 text-black fs-4 fw-bold">3</button>
+        <div>
+            <div class="grid grid-cols-4 gap-4 p-2">
+                <button class="bg-white py-2 text-lg text-black font-bold rounded-lg shadow-lg ...">4</button>
+                <button class="bg-white text-lg p-2 text-black font-bold rounded-lg shadow-lg ...">5</button>
+                <button class="bg-white text-lg p-2 text-black font-bold rounded-lg shadow-lg ...">6</button>
+                <button class="bg-green-400 text-lg p-2 text-white font-bold rounded-lg shadow-lg ...">&equals;</button>
             </div>
         </div>
-        <div class="container text-center">
-            <div class="row row-cols-6 pt-3">
-                <button class="bg-white ms-4 border border-0 rounded-2 text-black fs-4 fw-bold">0</button>
-                <button class="bg-white ms-3 border border-0 rounded-2 text-black fs-4 fw-bold text-center">.</button>
+
+        <div>
+            <div class="grid grid-cols-4 gap-4 p-2">
+                <button class="bg-white py-2 text-lg text-black font-bold rounded-lg shadow-lg ...">1</button>
+                <button class="bg-white text-lg p-2 text-black font-bold rounded-lg shadow-lg ...">2</button>
+                <button class="bg-white text-lg p-2 text-black font-bold rounded-lg shadow-lg ...">3</button>
+            </div>
+        </div>
+
+        <div>
+            <div class="grid grid-cols-4 gap-4 p-2">
+                <button class="bg-white py-2 text-lg text-black font-bold rounded-lg shadow-lg ...">0</button>
+                <button class="bg-white text-lg p-2 text-black font-bold rounded-lg shadow-lg ...">.</button>
             </div>
         </div>
     </div>
 
-    <script src="js/boostrap.min.js"></script>
+
+    <!-- <script src="js/boostrap.min.js"></script> -->
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/script.js"></script>
 

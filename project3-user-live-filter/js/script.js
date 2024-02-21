@@ -30,11 +30,13 @@ async function loadUsers(searchValue = "") {
 
     for (let i = 0; i < users.length; i++) {
       var userDivString = `
-        <figure class="flex border-b-2 mb-3">
-          <img class="w-60" src="images/team.jpg" alt="football team">
-          <article class=" font-bold ms-3">${users[i].firstName} ${users[i].lastName}</article>
-          <figcaption class="ms-3">${users[i].city} ${users[i].country}</figcaption>
-        </figure>
+        
+      <figure class="border-b-2 py-10 mb-5">
+      <img class="w-70 h-20 me-3 rounded-md ms-5" src="${users[i].image}" alt="football team">
+      <article class="font-bold text-lg">${users[i].firstName} ${users[i].lastName}</article>
+      <figcaption>${users[i].city} ${users[i].country}</figcaption>
+    </figure>
+        
     `;
 
       const parser = new DOMParser();

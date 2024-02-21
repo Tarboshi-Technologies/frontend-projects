@@ -4,26 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Image Search Site</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
 </head>
 
-<body>
-    <div class="container">
-        <h2 class="text-center fs-1 fw-bold mb-5">Image Search App</h2>
 
-        <div class="container text-center w-100">
-            <label for="" class="d-inline-flex">
-                <input type="search" class="w-100 me-2 ps-5 pe-5" name="search" id="search"
-                    placeholder="Search for images..." aria-describedby="passwordHelpInline">
-                <button class="ps-3 pe-3 border border-0 text-white fs-6 fw-bold">Search</button>
-            </label>
+<body class="bg-slate-100">
+    <div class="bg-white w-3/4 mx-auto mt-10 py-5 mb-0 rounded-xl shadow-lg shadow-gray-500/50 ...">
+        <h1 class="text-center text-3xl font-extrabold opacity-75 mb-4">Image Search App</h1>
+        <div class="">
+            <input type="search" class=" border border-gray-300 ms-80 px-60 mt-5 py-2 ps-4 mb-3"
+                placeholder="Search for image">
+            <button
+                class="py-2 px-5 bg-green-500 text-white text-lg font-bold rounded-md hover:bg-green-700">Search</button>
         </div>
 
-        <div class="container d-inline-flex justify-content-evenly mt-5">
+
+        <div class="grid grid-cols- md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10">
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 ...">
+                <img class="rounded-lg w-full h-60 shrink-0" src="images/cartoon.jpg" alt="" />
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">A
+                        cartoon
+                        returning from haunting</h5>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 ... ">
+                <img class="rounded-lg w-full h-60 shrink-0" src="images/cat.jpg" alt="" />
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">A
+                        beautiful white cat
+                    </h5>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 ... ">
+                <img class="rounded-lg w-full h-60 shrink-0" src="images/img_car.jpg" alt="" />
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">A car
+                        packed in a cool place
+                    </h5>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 ... ">
+                <img class="rounded-lg w-full h-60 shrink-0" src="images/mankey.jpg" alt="" />
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">A
+                        monkey laughing
+                    </h5>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 ... ">
+                <img class="rounded-lg w-full h-60 shrink-0" src="images/monkey.jpg" alt="" />
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">An
+                        angry monkey
+                    </h5>
+                </div>
+            </div>
+            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow-lg shadow-gray-500/50 ... ">
+                <img class="rounded-lg w-full h-60 shrink-0" src="images/wolf.jpg" alt="" />
+                <div class="p-5">
+                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">A sky
+                        blue wolf</h5>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- <div class="container d-inline-flex justify-content-evenly mt-5">
             <div class="card w-25 m-2">
                 <img src="images/vege.jpg" class="card-img-top" alt="card image">
                 <div class="card-body">
@@ -67,14 +119,14 @@
                 <div class="card-body">
                     <p class="card-text">sticky note on cockboard</p>
                 </div>
-            </div>
+            </div> -->
 
-        </div>
+    </div>
 
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/jquery-3.7.1.min.js"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script> -->
 </body>
